@@ -101,7 +101,7 @@ app.use(cors({
         'http://localhost:5173',  // User frontend
         'http://localhost:5174',  // Admin frontend (default)
         'https://rmcplus.seris.site/',  // Admin frontend (alternate port)
-        'http://localhost:5176',  // Current frontend port
+        'https://admin-o9u1.onrender.com',  // Current frontend port
         process.env.FRONTEND_URL  // Production URL
     ].filter(Boolean),
     credentials: true,
