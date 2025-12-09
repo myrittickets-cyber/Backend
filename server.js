@@ -71,6 +71,10 @@ pool.getConnection()
 
 const app = express();
 
+// FIX: REQUIRED for express-rate-limit behind Render proxy
+app.set('trust proxy', 1);
+
+
 // ============================================
 // SECURITY MIDDLEWARE
 // ============================================
